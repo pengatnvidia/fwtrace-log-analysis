@@ -8,8 +8,8 @@ usage:
 (1.1) how to read the SPDM output  
 
 find the below 3 lines:    
-   "calculated certchain hash" means the hash value calculated by the full cert without root.hash and without cert header;   
-   "calculated certchain hash(including header+roothash)" means the hash value calculated by full cert with root.hash and with cert header;
+   "calculated certchain hash" means the hash value calculated by the full cert without root.hash and without cert header; same as Digest response.     
+   "calculated certchain hash(including header+roothash)" means the hash value calculated by full cert with root.hash and with cert header; same as Challenge response.  
    "CHALLENGE_certchain_hash" comes from the response of the SPDM challenge command;  
 below is example,   
 
